@@ -197,7 +197,7 @@
     <name>Расш1_КонтактноеЛицо</name>
     <synonym>
       <key>ru</key>
-      <value>Расш1 контактное лицо</value>
+      <value>Контактное лицо</value>
     </synonym>
     <type>
       <types>CatalogRef.Расш1_КонтактныеЛица</types>
