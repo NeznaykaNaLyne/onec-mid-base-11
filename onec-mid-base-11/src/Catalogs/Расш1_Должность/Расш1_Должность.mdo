@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7e18e2c-c22f-4c68-b869-29c38c2b5313">
+  <producedTypes>
+    <objectType typeId="caf4c1ec-bb18-4bfe-8710-0cd654ae789a" valueTypeId="181de476-8e88-4d8f-a6c3-4830dcf73070"/>
+    <refType typeId="1f7adf62-a4c0-49e6-b462-3f2e3ac3232a" valueTypeId="1e95074c-592c-4c93-9ad5-4f385856b7e2"/>
+    <selectionType typeId="9d73a3ed-a3a1-455d-8abd-0b1d90668345" valueTypeId="dcece1e7-aee7-4983-8ed0-3c8b0014350f"/>
+    <listType typeId="fbd610e4-4f12-4f49-97a9-a78367da7208" valueTypeId="008eaa90-8e0f-480d-a0ca-80e576a3c9d9"/>
+    <managerType typeId="3fcf4897-5293-437c-ad1a-899e198d15de" valueTypeId="5cbc4c07-fae0-4a66-99f9-bef39aa06668"/>
+  </producedTypes>
+  <name>Расш1_Должность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Расш1_Должность.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Расш1_Должность.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Расш1_Должность.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="7e08e66e-3fc1-4458-970f-8270b52fb104">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
