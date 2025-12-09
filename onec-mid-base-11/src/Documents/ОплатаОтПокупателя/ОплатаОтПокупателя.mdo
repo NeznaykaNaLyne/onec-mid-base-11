@@ -208,6 +208,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="4d6b3405-d19c-47f0-bf8e-7087e3e6ca3b">
+    <name>ТекстРеквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст реквизит</value>
+    </synonym>
+    <comment>Для проверки интеграции комитов </comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="976f23f0-3fb8-45d3-9d21-0aa14380fea2">
     <name>ФормаДокумента</name>
     <synonym>
